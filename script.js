@@ -15,7 +15,7 @@
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
   var root = document.documentElement;
-  var WA_NUMBER = document.body.getAttribute('data-wa') || '525568380637';
+  var WA_NUMBER = document.body.getAttribute('data-wa') || '525645495713';
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer  = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   var hasGSAP = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
